@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.s.d.a.a.menuflutuante.MenuFlutuante">
+    <group
+        android:id="@+id/menu1"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/menu_item_vermelho"
+            android:title="@string/vermelho" />
+        <item
+            android:id="@+id/menu_item_verde"
+            android:title="@string/verde" />
+        <item
+            android:id="@+id/menu_item_amarelo"
+            android:title="@string/amarelo" />
+        <item
+            android:id="@+id/menu_item_azul"
+            android:title="@string/azul" />
+    </group>
+</menu>
